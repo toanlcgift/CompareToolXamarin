@@ -11,7 +11,7 @@ namespace CompareImage
     {
         public App()
         {
-            MainPage = new NavigationPage(new WeatherPage());
+            MainPage = new NavigationPage(new MainPage());
         }
 
         protected override void OnStart()
