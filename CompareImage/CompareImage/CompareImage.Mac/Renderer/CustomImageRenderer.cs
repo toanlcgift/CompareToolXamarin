@@ -1,5 +1,4 @@
-﻿using System;
-using CompareImage;
+﻿using CompareImage;
 using CompareImage.Mac.Renderer;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.MacOS;

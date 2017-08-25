@@ -108,6 +108,15 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="..\CompareImage\Resources\1.png">
+      <Link>1.png</Link>
+    </Content>
+    <Content Include="..\CompareImage\Resources\2.png">
+      <Link>2.png</Link>
+    </Content>
+    <Content Include="..\CompareImage\Resources\3.png">
+      <Link>3.png</Link>
+    </Content>
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -132,9 +141,7 @@
       <Name>CompareImage</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Renderer\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
