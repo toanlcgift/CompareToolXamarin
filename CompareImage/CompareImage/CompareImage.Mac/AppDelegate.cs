@@ -13,7 +13,7 @@ namespace CompareImage.Mac
 		{
 			var style = NSWindowStyle.Closable | NSWindowStyle.Resizable | NSWindowStyle.Titled;
 
-			var rect = new CoreGraphics.CGRect(200, 1000, 550, 300);
+			var rect = new CoreGraphics.CGRect(200, 1000, 1500, 1000);
 			_window = new NSWindow(rect, style, NSBackingStore.Buffered, false);
 			_window.Title = "Xamarin.Forms Mac";
 			_window.TitleVisibility = NSWindowTitleVisibility.Hidden;
